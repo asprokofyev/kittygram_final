@@ -211,7 +211,7 @@ jobs:
       with:
         to: ${{ secrets.TELEGRAM_TO }}
         token: ${{ secrets.TELEGRAM_TOKEN }}
-        message: Подготовка к деплою проекта kittygram успешно выполнена - все образы обновлены!
+        message: Деплой проекта kittygram выполнен успешно!
 
   notify_failure:
     runs-on: ubuntu-latest
